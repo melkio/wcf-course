@@ -1,7 +1,7 @@
-﻿using Lesson01.Contracts;
+﻿using Contracts;
 using System;
 
-namespace Lesson01.Services
+namespace Services
 {
     public class CalculatorImpl : ICalculator
     {

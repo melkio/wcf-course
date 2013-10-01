@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 
-namespace Lesson01.Contracts
+namespace Contracts
 {
     [ServiceContract]
     public interface ICalculator

@@ -1,4 +1,4 @@
-﻿using Lesson01.Contracts;
+﻿using Contracts;
 using System;
 using System.ServiceModel;
 

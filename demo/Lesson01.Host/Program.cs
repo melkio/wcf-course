@@ -1,5 +1,5 @@
-﻿using Lesson01.Contracts;
-using Lesson01.Services;
+﻿using Contracts;
+using Services;
 using System;
 using System.ServiceModel;
 

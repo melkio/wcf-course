@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08394F2F-49B9-4A8D-9210-71310AAFB1F4}</ProjectGuid>
+    <ProjectGuid>{AD437A38-1A83-4FFD-83E7-2949F9A8D704}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson01.Services</RootNamespace>
-    <AssemblyName>Lesson01.Services</AssemblyName>
+    <RootNamespace>Services</RootNamespace>
+    <AssemblyName>Services</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,9 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lesson01.Contracts\Lesson01.Contracts.csproj">
-      <Project>{75d2bb67-5c78-4c20-8769-a1ff15815f90}</Project>
-      <Name>Lesson01.Contracts</Name>
+    <ProjectReference Include="..\Contracts\Contracts.csproj">
+      <Project>{ada4c4d3-88b8-4be0-9d8d-e81927022057}</Project>
+      <Name>Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
