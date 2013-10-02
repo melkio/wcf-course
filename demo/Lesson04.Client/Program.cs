@@ -6,16 +6,14 @@ namespace Lesson04.Client
     {
         static void Main(String[] args)
         {
-            using (var client = new ThrowErrorClient())
+            var client = new ThrowErrorClient();
+            try
             {
-                try
-                {
-                    client.Throw();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+                client.Throw();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
 
             Console.ReadLine();
