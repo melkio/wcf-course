@@ -41,9 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\MyContractBehaviorAttribute.cs" />
+    <Compile Include="Behaviors\MyEndpointBehavior.cs" />
+    <Compile Include="Behaviors\MyOperationBehaviorAttribute.cs" />
+    <Compile Include="Behaviors\MyServiceBehaviorAttribute.cs" />
     <Compile Include="ComplexNumber.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="ICommandExecutor.cs" />
+    <Compile Include="IEcho.cs" />
     <Compile Include="IThrowError.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

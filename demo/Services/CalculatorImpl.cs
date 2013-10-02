@@ -1,4 +1,5 @@
 ﻿using Contracts;
+using Contracts.Behaviors;
 using System;
 
 namespace Services
