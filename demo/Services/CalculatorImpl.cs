@@ -9,5 +9,14 @@ namespace Services
         {
             return a + b;
         }
+
+        public ComplexNumber AddComplex(ComplexNumber a, ComplexNumber b)
+        {
+            return new ComplexNumber
+                {
+                    Real = a.Real + b.Real,
+                    Immaginary = a.Immaginary + b.Immaginary
+                };
+        }
     }
 }

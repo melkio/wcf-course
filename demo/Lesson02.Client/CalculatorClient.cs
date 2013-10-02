@@ -10,5 +10,10 @@ namespace Lesson02.Client
         {
             return Channel.Add(a, b);
         }
+
+        public ComplexNumber AddComplex(ComplexNumber a, ComplexNumber b)
+        {
+            return Channel.AddComplex(a, b);
+        }
     }
 }
