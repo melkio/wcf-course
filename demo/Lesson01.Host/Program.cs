@@ -12,9 +12,9 @@ namespace Lesson01.Host
             using (var host = new ServiceHost(typeof(CalculatorImpl)))
             {
                 host.AddServiceEndpoint(
-                    typeof(ICalculator),
-                    new NetTcpBinding(),
-                    "net.tcp://localhost:8080/calculator");
+                    typeof(ICalculator),                        // contract
+                    new NetTcpBinding(),                        // binding
+                    "net.tcp://localhost:8080/calculator");     // address
                 host.Open();
 
                 Console.ReadLine();

@@ -44,8 +44,10 @@
     <Compile Include="CalculatorImplWithLog.cs" />
     <Compile Include="CombinedService.cs" />
     <Compile Include="CommandExecutor.cs" />
+    <Compile Include="HierarchyServiceImpl.cs" />
     <Compile Include="ILog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestProcessor.cs" />
     <Compile Include="ThrowErrorImpl.cs" />
   </ItemGroup>
   <ItemGroup>

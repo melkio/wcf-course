@@ -20,6 +20,8 @@ namespace Lesson03.Host
 
                 Console.ReadLine();
             }
+
+            Console.ReadLine();
         }
     }
 }

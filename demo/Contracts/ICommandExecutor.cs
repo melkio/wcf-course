@@ -4,7 +4,7 @@ using System.ServiceModel;
 namespace Contracts
 {
     [ServiceContract(CallbackContract = typeof(ICommandExecutedCallback))]
-    public interface ICommandExecutor
+    public interface ICommandExecutor   
     {
         [OperationContract(IsOneWay=true)]
         void Execute(String message);

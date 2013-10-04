@@ -1,8 +1,9 @@
 ﻿using Contracts;
+using Contracts.Behaviors;
 using System;
 namespace Services
 {
-    //[MyServiceBehavior]
+    [MyServiceBehavior]
     public class CombinedService : ICalculator, IEcho
     {
         public String Echo(String text)

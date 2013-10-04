@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttivaLicenzaRequest.cs" />
+    <Compile Include="AttivaLicenzaV2.cs" />
     <Compile Include="Behaviors\MyContractBehaviorAttribute.cs" />
     <Compile Include="Behaviors\MyEndpointBehavior.cs" />
     <Compile Include="Behaviors\MyOperationBehaviorAttribute.cs" />
@@ -49,8 +51,12 @@
     <Compile Include="ICalculator.cs" />
     <Compile Include="ICommandExecutor.cs" />
     <Compile Include="IEcho.cs" />
+    <Compile Include="IHierarchyService.cs" />
+    <Compile Include="IRequestProcessor.cs" />
     <Compile Include="IThrowError.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestResponse.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
